@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/WordChange/static/css/main.31d6cfe0.css",
+    "main.js": "/WordChange/static/js/main.36d0f93d.js",
+    "static/js/453.02b6ed6f.chunk.js": "/WordChange/static/js/453.02b6ed6f.chunk.js",
+    "index.html": "/WordChange/index.html",
+    "main.36d0f93d.js.map": "/WordChange/static/js/main.36d0f93d.js.map",
+    "453.02b6ed6f.chunk.js.map": "/WordChange/static/js/453.02b6ed6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.36d0f93d.js"
+  ]
+}

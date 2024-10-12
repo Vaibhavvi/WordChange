@@ -38,11 +38,10 @@ function Textarea(props) {
                 <textarea id='box'
                     value={text}
                     onChange={handleChange}
-                    rows="5"
-                    cols="100"
-                    style={{backgroundColor: props.mode==='dark'?'gray':'white', color:props.mode==='dark'?'white':'black'}}
+                    style={{backgroundColor: props.mode==='dark'?'gray':'white', color:props.mode==='dark'?'white':'black', height:'100px',width:'350px'}}
                    
                 />
+                <br />
                 <button className="btn btn-outline-warning my-2" onClick={handleUpClick}>Change to Uppercase</button>
                 <button className="btn btn-outline-info my-4" onClick={handleloClick}>Change to Lowercase</button>
                 <button className="btn btn-outline-danger" onClick={clearToClipboard}>Clear Text</button>
@@ -51,7 +50,7 @@ function Textarea(props) {
             </div>
             <div className="container my-4"  style={{color:props.mode==='dark'?'white':'black'}}>
                 <h1>Your summary text</h1>
-                <p>{text.split(" ").length} word and {text.length} characters</p>
+                <p>{text.split(" ").filter((element) => {return element.length===!0}).length} words and {text.length} characters</p>
                 <p>{0.008 * text.split(" ").length} Minuts read</p>
                 <h3>Preview</h3>
                 <p>{text}</p>

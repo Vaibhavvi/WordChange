@@ -35,7 +35,7 @@ const App = () => {
      <Navbar title='WordChange' Contact='Contact us' mode={mode} toggleMode={toggleMode}/> 
      <Alert alert={alert}/>
      <div className="container mt-sm-1 justify-center align-center">
-     <Textarea showAlert ={showAlert} top="Enter the text" mode={mode}/>
+     <Textarea showAlert ={showAlert} top="Try-WordChange with text" mode={mode}/>
      </div>
      </>
   );

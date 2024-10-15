@@ -38,7 +38,7 @@ function Textarea(props) {
                 <textarea id='box'
                     value={text}
                     onChange={handleChange}
-                    style={{backgroundColor: props.mode==='dark'?'gray':'white', color:props.mode==='dark'?'white':'black', height:'100px',width:'350px'}}
+                    style={{backgroundColor: props.mode==='dark'?'gray':'white', color:props.mode==='dark'?'white':'black', height:'100px',width:'355px'}}
                    
                 />
                 <br />
